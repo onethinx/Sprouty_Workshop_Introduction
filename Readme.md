@@ -21,6 +21,6 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 1. Install OTX-Meaestro according [the instructions from here](https://github.com/onethinx/OTX-Maestro-Windows)
 
 ### FarmBug and programming hardware
-1. Install PSoC Creator (after installation, check the bottom checkbox to continue without registration information)
-1. Install PDL 3.1.5
-1. Run PSoC Creator and set the freshly installed PDL by `TOOLS` -> `OPTIONS` -> `PDL v3 (PSoC6 devices) location:` -> `C:\Program Files (x86)\Cypress\PDL\3.1.5`
+1. Make sure the programmer, adapter PCB and cable are connected to the FarmBug as shown:
+ ![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Connection.jpg?raw=true)
+1. Do not install the battery when using the debugger.
