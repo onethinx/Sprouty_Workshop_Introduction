@@ -1,4 +1,4 @@
-# Workshop 18th of May 2023
+# Workshop 29th of May 2023
 
 ## Prerequisites
 ### Hardware
