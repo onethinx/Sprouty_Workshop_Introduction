@@ -22,7 +22,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 ### 1.4 FarmBug and programming hardware
 1. Make sure the programmer, adapter PCB and cable are connected to the FarmBug as shown:<br>
-![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)
+![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)<br>
 1. Do not install the battery when using the debugger.
 
 ## 2 FarmBug Project: Chip Configuration, Firmware Coding and Debugging
@@ -32,18 +32,18 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 1. Download the FarmBug Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
 1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\OTX-FarmBug` (e.g. `C:\OTX-FarmBug`)
 1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\OTX-FarmBug\Onethinx_Creator.cydsn`. PSoC Creator will open<br>
-![PSoCCreator_WorkspaceExplorer](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PSoCCreator_WorkspaceExplorer.png?raw=true)
+![PSoCCreator_WorkspaceExplorer](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PSoCCreator_WorkspaceExplorer.png?raw=true)<br>
 1. Open (double click) `TopDesign.cysch` and view the internal wiring of the PSoC6, causing the LED to flash
 1. Open `Pins` from the Design Wide Resources to configure the LED IO pin
 1. Watch the schematic and find out the right IO pin the LED is connected with<br>
-![LED pin](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/LEDpin.png?raw=true)
+![LED pin](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/LEDpin.png?raw=true)<br>
 1. Click the dropdown arrow and select the IO pin we just found for the LED<br>
-![PinConfig](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PinConfig.png?raw=true)
+![PinConfig](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PinConfig.png?raw=true)<br>
 1. Now the LED is configured for the right IO, the OTX / PSoC6 configuration project is ready to be built
 1. Hit the Build Icon in the toolbar or select `Build >> Build Onethinx_Creator (Shift + F6)`<br>
-![Build](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Build.png?raw=true)
+![Build](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Build.png?raw=true)<br>
 1. Wait for PSoC Creator to build the configuration project<br>
-![Output](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Output.png?raw=true)
+![Output](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Output.png?raw=true)<br>
 1. The message `Build Succeeded` will appear when building is ready without issues
 1. Chip configuration is done, PSoC Creator may now be closed.
 
@@ -51,10 +51,12 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 1. Start Visual Studio Code
 1. Open the OTX-FarmBug folder (not the .zip file)<br>
-![VScode Open](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/VS_Code_Open.png?raw=true)
+![VScode Open](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/VS_Code_Open.png?raw=true)<br>
 1. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
-![Clean Build Launch](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Clean_Build_Launch.png?raw=true)<br><br><br>
-1. After successfull configuration ("Terminal will be reused by tasks, press..."), the project can be Built and Launched from the debugger. 
-  Make sure the FarmBug is connected to the debugger and PC before launching the debug session.
-  Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code<br>
-
+![Clean Build Launch](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Clean_Build_Launch.png?raw=true)<br>
+1. After successfull configuration (the terminal window will show: "Terminal will be reused by tasks, press..." when ready), the project can be Built and Launched from the debugger. 
+  Make sure the FarmBug is connected to the debugger and PC before launching the debug session
+  Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code
+1. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉<br>
+![Succeeded](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Succeeded.gif?raw=true)<br>
+1. Congratulations, you're now qualified Onethinx Rookie<br>🤓
