@@ -3,7 +3,7 @@
 ## 1 Prerequisites
 ### 1.1 Hardware
 1. Moisture Sensor (FarmBug)
-1. Programmer + cable + adapter PCB
+1. Programmer + cable + adapter PCB.
 
 ![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/FarmBug%20&%20programmer.jpeg?raw=true)
 
@@ -25,8 +25,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 ![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)
 1. Do not install the battery when using the debugger.
 
-
-## 2 FarmBug Project: chip configuration, firmware coding and debugging
+## 2 FarmBug Project: Chip Configuration, Firmware Coding and Debugging
 
 ### 2.1 FarmBug Chip Setup / Configuration Project (uses PSoC Creator)
 
@@ -45,5 +44,17 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 ![Build](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Build.png?raw=true)
 1. Wait for PSoC Creator to build the configuration project<br>
 ![Output](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Output.png?raw=true)
-1. The message `Build Succeeded` will appear when building is ready without issues.
+1. The message `Build Succeeded` will appear when building is ready without issues
 1. Chip configuration is done, PSoC Creator may now be closed.
+
+### 2.2 Firmware Coding and Debugging (uses Visual Studio Code)
+
+1. Start Visual Studio Code
+1. Open the OTX-FarmBug folder (not the .zip file)<br>
+![VScode Open](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/VS_Code_Open.png?raw=true)
+1. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
+![Clean Build Launch](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Clean_Build_Launch.png?raw=true)<br><br><br>
+1. After successfull configuration ("Terminal will be reused by tasks, press..."), the project can be Built and Launched from the debugger. 
+  Make sure the FarmBug is connected to the debugger and PC before launching the debug session.
+  Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code<br>
+
