@@ -30,7 +30,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 1. Download the FarmBug Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
 1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\OTX-FarmBug` (e.g. `C:\OTX-FarmBug`)
-1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\OTX-FarmBug\Onethinx_Creator.cydsn`
+1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\OTX-FarmBug\Onethinx_Creator.cydsn`. PSoC Creator will open.
 1. Open (double click) `TopDesign.cysch` and view the internal wiring of the PSoC6, causing the LED to flash
 1. Open `Pins` from the Design Wide Resources to configure the LED IO pin
 1. Watch the schematic and find out the right IO pin the LED is connected with
