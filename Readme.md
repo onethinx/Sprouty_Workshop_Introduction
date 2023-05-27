@@ -21,12 +21,14 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 1. Install OTX-Meaestro according [the instructions from here](https://github.com/onethinx/OTX-Maestro-Windows)
 
 ### 1.4 FarmBug and programming hardware
-1. Make sure the programmer, adapter PCB and cable are connected to the FarmBug as shown:
- ![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)
+1. Make sure the programmer, adapter PCB and cable are connected to the FarmBug as shown:<br>
+![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)
 1. Do not install the battery when using the debugger.
 
 
-## 2 FarmBug Project
+## 2 FarmBug Project: chip configuration, firmware coding and debugging
+
+### 2.1 FarmBug Chip Setup / Configuration Project (uses PSoC Creator)
 
 1. Download the FarmBug Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
 1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\OTX-FarmBug` (e.g. `C:\OTX-FarmBug`)
@@ -36,5 +38,12 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 1. Open `Pins` from the Design Wide Resources to configure the LED IO pin
 1. Watch the schematic and find out the right IO pin the LED is connected with<br>
 ![LED pin](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/LEDpin.png?raw=true)
-1. Click the dropdown arrow and select the IO pin we found for the LED<br>
+1. Click the dropdown arrow and select the IO pin we just found for the LED<br>
 ![PinConfig](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PinConfig.png?raw=true)
+1. Now the LED is configured for the right IO, the OTX / PSoC6 configuration project is ready to be built
+1. Hit the Build Icon in the toolbar or select `Build >> Build Onethinx_Creator (Shift + F6)`<br>
+![Build](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Build.png?raw=true)
+1. Wait for PSoC Creator to build the configuration project<br>
+![Output](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Output.png?raw=true)
+1. The message `Build Succeeded` will appear when building is ready without issues.
+1. Chip configuration is done, PSoC Creator may now be closed.
