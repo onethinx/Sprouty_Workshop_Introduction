@@ -1,4 +1,4 @@
-# Workshop 29th of May 2023
+# FarmBug Workshop
 
 ## 1 Prerequisites
 ### 1.1 Hardware
