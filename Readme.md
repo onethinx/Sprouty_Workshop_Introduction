@@ -5,7 +5,7 @@
 1. Onethinx Sprouty
 1. Programmer + cable + adapter PCB.
 
-![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/PartsNeeded.jpg?raw=true)
+![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/PartsNeeded.jpg?raw=true)
 
 ### 1.2 Software for chip setup
 The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creator
@@ -22,7 +22,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 ### 1.4 Sprouty and programming hardware
 1. Make sure the programmer, adapter PCB and cable are connected to the Sprouty as shown:<br>
-![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connections.jpg?raw=true)<br>
+![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/Connections.jpg?raw=true)<br>
 1. Do not install the battery when using the debugger.
 
 ## 2 FarmBug Project: Chip Configuration, Firmware Coding and Debugging
