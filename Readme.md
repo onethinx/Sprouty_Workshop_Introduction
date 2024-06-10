@@ -5,7 +5,7 @@
 1. Onethinx Sprouty
 1. Programmer + cable + adapter PCB.
 
-![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/PartsNeeded.jpg)
+![Sprouty, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/PartsNeeded.jpg)
 
 ### 1.2 Software for chip setup
 The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creator
@@ -22,16 +22,16 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 ### 1.4 Sprouty and programming hardware
 1. Make sure the programmer, adapter PCB and cable are connected to the Sprouty as shown:<br>
-![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/Connections.jpg?raw=true)<br>
+![Sprouty, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/Connections.jpg?raw=true)<br>
 1. Do not install the battery when using the debugger.
 
-## 2 FarmBug Project: Chip Configuration, Firmware Coding and Debugging
+## 2 Sprouty Project: Chip Configuration, Firmware Coding and Debugging
 
-### 2.1 FarmBug Chip Setup / Configuration Project (uses PSoC Creator)
+### 2.1 Sprouty Chip Setup / Configuration Project (uses PSoC Creator)
 
-1. Download the FarmBug Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
-1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\OTX-FarmBug` (e.g. `C:\OTX-FarmBug`)
-1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\OTX-FarmBug\Onethinx_Creator.cydsn`. PSoC Creator will open<br>
+1. Download the Sprouty Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
+1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\Sprouty_StartCode` (e.g. `C:\...\Sprouty_StartCode`)
+1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\Sprouty_StartCode\Onethinx_Creator.cydsn`. PSoC Creator will open<br>
 ![PSoCCreator_WorkspaceExplorer](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PSoCCreator_WorkspaceExplorer.png?raw=true)<br>
 1. Open (double click) `TopDesign.cysch` and view the internal wiring of the PSoC6, causing the LED to flash
 1. Open `Pins` from the Design Wide Resources to configure the LED IO pin
@@ -50,12 +50,12 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 ### 2.2 Firmware Coding and Debugging (uses Visual Studio Code)
 
 1. Start Visual Studio Code
-1. Open the OTX-FarmBug folder (not the .zip file)<br>
+1. Open the Sprouty folder (not the .zip file)<br>
 ![VScode Open](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/VS_Code_Open.png?raw=true)<br>
 1. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
 ![Clean Build Launch](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Clean_Build_Launch.png?raw=true)<br>
 1. After successfull configuration (the terminal window will show: "Terminal will be reused by tasks, press..." when ready), the project can be Built and Launched from the debugger. 
-  Make sure the FarmBug is connected to the debugger and PC before launching the debug session
+  Make sure the Sprouty is connected to the debugger and PC before launching the debug session
   Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code
 1. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉<br>
 ![Succeeded](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Succeeded.gif?raw=true)<br>
