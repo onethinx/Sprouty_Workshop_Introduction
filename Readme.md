@@ -54,7 +54,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 2. Open the Sprouty folder (not the .zip file)
 <br>
 
-![VScode Open](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingFolder.png)
+![VScode Open](https://github.com/onethinx/Sprouty_Workshop_Introduction/blob/main/Assets/SelectingFolder.png)
 
 <br>
 3. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
