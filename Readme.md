@@ -69,6 +69,8 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
    
 ![Select Programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
 
+![SelectedProgrammer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
+
 6. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉
  <br>
 
