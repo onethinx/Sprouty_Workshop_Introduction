@@ -51,18 +51,28 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 ### 2.2 Firmware Coding and Debugging (uses Visual Studio Code)
 
 1. Start Visual Studio Code
-1. Open the Sprouty folder (not the .zip file)<br>
+2. Open the Sprouty folder (not the .zip file)
+<br>
+
 ![VScode Open](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingFolder.png)
+
 <br>
-1. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
+3. As the project has not run on the PC before, it needs to be Clean-Reconfigured before it can be built. Hit the `Clean-Reconfigure` button from the status bar at the bottom of VS Code<br>
+
 ![Clean Build Launch](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Clean_Build_Launch.png?raw=true)
+
 <br>
-1. After successfull configuration (the terminal window will show: "Terminal will be reused by tasks, press..." when ready), the project can be Built and Launched from the debugger. 
+5. After successfull configuration (the terminal window will show: "Terminal will be reused by tasks, press..." when ready), the project can be Built and Launched from the debugger. 
   Make sure the Sprouty is connected to the debugger and PC before launching the debug session
   Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code
-1. Press Select programmer and choose CMSIS DAP. If you have a different programmer, choose it. If you received your programmer with Sprouty, select CMSIS DAP.
+6. Press Select programmer and choose CMSIS DAP. If you have a different programmer, choose it. If you received your programmer with Sprouty, select CMSIS DAP.
+   
   ![Select Programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
-1. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉<br>
+
+6. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉
+ <br>
+
 ![Succeeded](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Succeeded.gif?raw=true)
+
 <br>
-1. Congratulations, you're now qualified Onethinx Rookie<br>🤓
+7. Congratulations, you're now qualified Onethinx Rookie<br>🤓
