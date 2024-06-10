@@ -5,7 +5,7 @@
 1. Onethinx Sprouty
 1. Programmer + cable + adapter PCB.
 
-![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/PartsNeeded.jpg?raw=true)
+![FarmBug, cable and programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/PartsNeeded.jpg)
 
 ### 1.2 Software for chip setup
 The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creator
