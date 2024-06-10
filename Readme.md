@@ -63,5 +63,6 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 1. Press Select programmer and choose CMSIS DAP. If you have a different programmer, choose it. If you received your programmer with Sprouty, select CMSIS DAP.
   ![Select Programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
 1. Cross fingers and hopefully the firmware will be programmed, the project will enter debug mode (yellow bar) and the blue LED will be flashing🎉<br>
-![Succeeded](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Succeeded.gif?raw=true)<br>
+![Succeeded](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/Succeeded.gif?raw=true)
+<br>
 1. Congratulations, you're now qualified Onethinx Rookie<br>🤓
