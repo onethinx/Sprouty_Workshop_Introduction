@@ -13,7 +13,7 @@ The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creat
 1. Download PDL 3.1.7 [from the same location](https://drive.google.com/drive/folders/17IZQReRqCk6mNGf5SMYcHy2We6gLfeac?usp=share_link)
 1. Install PSoC Creator (after installation, check the bottom checkbox to continue without registration information)
 1. Install PDL 3.1.7
-1. Run PSoC Creator and set the freshly installed PDL by `TOOLS` -> `OPTIONS` -> `PDL v3 (PSoC6 devices) location:` -> `C:\Program Files (x86)\Cypress\PDL\3.1.5`
+1. Run PSoC Creator and set the freshly installed PDL by `TOOLS` -> `OPTIONS` -> `PDL v3 (PSoC6 devices) location:` -> `C:\Program Files (x86)\Cypress\PDL\3.1.7`
 1. Close PSoC Creator
 
 ### 1.3 OTX-Maestro
@@ -30,7 +30,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 ### 2.1 Sprouty Chip Setup / Configuration Project (uses PSoC Creator)
 
-1. Download the Sprouty Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/OTX-FarmBug.zip)
+1. Download the Sprouty Project [from here](https://github.com/onethinx/Workshop_29May2023/raw/main/Assets/Sprouty_StartCode.zip)
 1. After downloading, right click the .zip file and select 'Extract All'. Choose a short folder path and make sure the folder ends with `\Sprouty_StartCode` (e.g. `C:\...\Sprouty_StartCode`)
 1. Open (double click) `Onethinx_Creator.cyprj` inside the project folder `..\Sprouty_StartCode\Onethinx_Creator.cydsn`. PSoC Creator will open<br>
 ![PSoCCreator_WorkspaceExplorer](https://github.com/onethinx/Workshop_29May2023/blob/main/Assets/PSoCCreator_WorkspaceExplorer.png?raw=true)<br>
