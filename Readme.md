@@ -67,7 +67,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
   Hit the `Build-And-Launch` button from the status bar at the bottom of VS Code
 6. Press Select programmer and choose CMSIS DAP. If you have a different programmer, choose it. If you received your programmer with Sprouty, select CMSIS DAP.
    
-![Select Programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
+![Select Programmer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png?raw=true)
 
 ![SelectedProgrammer](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/SelectingProgrammer.png)
 
