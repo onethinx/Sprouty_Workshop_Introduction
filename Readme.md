@@ -22,7 +22,7 @@ The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code 
 
 ### 1.4 Sprouty and programming hardware
 1. Make sure the programmer, adapter PCB and cable are connected to the Sprouty as shown:<br>
-![Sprouty, connection](https://github.com/onethinx/Sprouty_Workshop_Introduction/tree/main/Assets/Connections.jpg?raw=true)<br>
+![Sprouty, connection](https://github.com/onethinx/Sprouty_Workshop_Introduction/blob/main/Assets/Connections.jpg)<br>
 1. Do not install the battery when using the debugger.
 
 ## 2 Sprouty Project: Chip Configuration, Firmware Coding and Debugging
