@@ -1,11 +1,11 @@
-# FarmBug Workshop
+# Sprouty Workshop
 
 ## 1 Prerequisites
 ### 1.1 Hardware
-1. Moisture Sensor (FarmBug)
+1. Onethinx Sprouty
 1. Programmer + cable + adapter PCB.
 
-![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/FarmBug%20&%20programmer.jpeg?raw=true)
+![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/PartsNeeded.jpg?raw=true)
 
 ### 1.2 Software for chip setup
 The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creator
@@ -20,9 +20,9 @@ The PSoC6 microcontroller on the OTX-18 can be freely configured with PSoC Creat
 The OTX-18 can be programmed and debugged with OTX-Meaestro (Visual Studio Code based Integrated Development Environment)
 1. Install OTX-Meaestro according [the instructions from here](https://github.com/onethinx/OTX-Maestro-Windows)
 
-### 1.4 FarmBug and programming hardware
-1. Make sure the programmer, adapter PCB and cable are connected to the FarmBug as shown:<br>
-![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connection.jpg?raw=true)<br>
+### 1.4 Sprouty and programming hardware
+1. Make sure the programmer, adapter PCB and cable are connected to the Sprouty as shown:<br>
+![FarmBug, cable and programmer](https://github.com/onethinx/Workshop_18May2023/blob/main/Assets/Connections.jpg?raw=true)<br>
 1. Do not install the battery when using the debugger.
 
 ## 2 FarmBug Project: Chip Configuration, Firmware Coding and Debugging
